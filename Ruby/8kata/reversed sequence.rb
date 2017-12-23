@@ -15,3 +15,5 @@ def reverse_seq(n)
 
 reverse_seq(5)
 reverse_seq(10)
+
+# p 5.downto(1).to_a
