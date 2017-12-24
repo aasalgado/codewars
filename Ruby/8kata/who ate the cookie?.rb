@@ -12,9 +12,7 @@
 def cookie(x)
     if  x.class == String 
         p "Who ate the last cookie? It was Zach!"
-    elsif x.class == Integer
-        p "Who ate the last cookie? It was Monica!"
-    elsif x.class == Float
+    elsif x.class == Integer or x.class == Float
         p "Who ate the last cookie? It was Monica!"
     else
        p "Who ate the last cookie? It was the dog!"
